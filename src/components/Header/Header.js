@@ -8,7 +8,7 @@ const Header = memo(() => {
 
   return (
     <header className='header'>
-        <img className='header__logo' src={logo} onClick={() => history.push('/')} alt='логотип' />
+        <img className='header__logo' src={logo} onClick={() => history.push('/about')} alt='логотип' />
     </header >
   )
 })

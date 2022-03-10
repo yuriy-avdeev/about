@@ -7,7 +7,7 @@ const PageNotFound = memo(() => {
 
   const handleClick = (evt) => {
     evt.preventDefault()
-    history.go(-2)
+    history.go(-1)
   }
 
   return (
